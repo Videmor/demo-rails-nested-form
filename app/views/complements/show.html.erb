@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Project:</b>
+  <%= @complement.project_id %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @complement.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_complement_path(@complement) %> |
+<%= link_to 'Back', complements_path %>
