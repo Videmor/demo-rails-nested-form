@@ -9,7 +9,9 @@
   <p>
     <b>Complements:</b>
     <% @project.complements.each do |complement| %>
-      <div style="margin-left: 50px"> * <%= complement.name %></div>
+      <% unless complement.name.empty? %>
+        <div style="margin-left: 50px"> * <%= complement.name %></div>
+      <% end %>
     <% end %>
   </p>
 <% end %>
