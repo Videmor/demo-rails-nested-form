@@ -7,6 +7,10 @@ Execute commands:
   > rake db:setup
   > rails s
 
-In browser:
+In browser local:
 
   http://0.0.0.0:3000
+
+In Heroku demo:
+
+  http://nested-form.herokuapp.com/
