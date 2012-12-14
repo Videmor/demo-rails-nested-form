@@ -1,4 +1,12 @@
 demo-rails-nested-form
 ======================
 
-Demo Rails Nested Form
+Execute commands:
+
+  > bundle install
+  > rake db:setup
+  > rails s
+
+In browser:
+
+  http://0.0.0.0:3000
