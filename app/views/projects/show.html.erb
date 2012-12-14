@@ -5,6 +5,15 @@
   <%= @project.name %>
 </p>
 
+<% unless @project.complements.empty?  %>
+  <p>
+    <b>Complements:</b>
+    <% @project.complements.each do |complement| %>
+      <%= complement.name %>
+    <% end %>
+  </p>
+<% end %>
+
 
 <%= link_to 'Edit', edit_project_path(@project) %> |
 <%= link_to 'Back', projects_path %>
