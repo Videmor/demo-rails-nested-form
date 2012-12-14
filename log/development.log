@@ -968,3 +968,328 @@ Served asset /projects.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-13 21:31:18 -0500
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-12-13 21:46:55 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" 
+  Rendered projects/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 11ms (Views: 6.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-13 21:46:55 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/complements.css?body=1" for 127.0.0.1 at 2012-12-13 21:46:55 -0500
+Served asset /complements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-13 21:46:55 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-12-13 21:46:55 -0500
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-13 21:46:55 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-13 21:46:55 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/complements.js?body=1" for 127.0.0.1 at 2012-12-13 21:46:55 -0500
+Served asset /complements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2012-12-13 21:46:55 -0500
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-13 21:46:55 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2012-12-13 21:46:57 -0500
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (2.7ms)
+  Rendered projects/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 15ms (Views: 7.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-13 21:46:57 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/complements.css?body=1" for 127.0.0.1 at 2012-12-13 21:46:57 -0500
+Served asset /complements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-13 21:46:57 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-13 21:46:57 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-12-13 21:46:57 -0500
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-13 21:46:57 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/complements.js?body=1" for 127.0.0.1 at 2012-12-13 21:46:57 -0500
+Served asset /complements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2012-12-13 21:46:57 -0500
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-13 21:46:57 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2012-12-13 21:47:16 -0500
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (3.6ms)
+  Rendered projects/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-13 21:47:16 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/complements.css?body=1" for 127.0.0.1 at 2012-12-13 21:47:16 -0500
+Served asset /complements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-12-13 21:47:16 -0500
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-13 21:47:16 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-13 21:47:16 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-13 21:47:16 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/complements.js?body=1" for 127.0.0.1 at 2012-12-13 21:47:16 -0500
+Served asset /complements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2012-12-13 21:47:16 -0500
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-13 21:47:16 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2012-12-13 21:48:06 -0500
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kv5F0YGiXTk4xhFXvVRo5hDY00sigIelos7zIdXX5dM=", "project"=>{"name"=>"project 3", "complements_attributes"=>{"0"=>{"name"=>"com A"}, "1"=>{"name"=>"com B"}}}, "commit"=>"Create Project"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "projects" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 14 Dec 2012 02:48:06 UTC +00:00], ["name", "project 3"], ["updated_at", Fri, 14 Dec 2012 02:48:06 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "complements" ("created_at", "name", "project_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 14 Dec 2012 02:48:06 UTC +00:00], ["name", "com A"], ["project_id", 3], ["updated_at", Fri, 14 Dec 2012 02:48:06 UTC +00:00]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "complements" ("created_at", "name", "project_id", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Fri, 14 Dec 2012 02:48:06 UTC +00:00], ["name", "com B"], ["project_id", 3], ["updated_at", Fri, 14 Dec 2012 02:48:06 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/projects/3
+Completed 302 Found in 7ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/projects/3" for 127.0.0.1 at 2012-12-13 21:48:06 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "complements" WHERE "complements"."project_id" = 3[0m
+  [1m[35mComplement Load (0.1ms)[0m  SELECT "complements".* FROM "complements" WHERE "complements"."project_id" = 3
+  Rendered projects/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-13 21:48:06 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-13 21:48:06 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-13 21:48:06 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/complements.css?body=1" for 127.0.0.1 at 2012-12-13 21:48:06 -0500
+Served asset /complements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-13 21:48:06 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-12-13 21:48:06 -0500
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/complements.js?body=1" for 127.0.0.1 at 2012-12-13 21:48:06 -0500
+Served asset /complements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2012-12-13 21:48:06 -0500
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-13 21:48:06 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/3" for 127.0.0.1 at 2012-12-13 21:50:12 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "complements" WHERE "complements"."project_id" = 3
+  [1m[36mComplement Load (0.1ms)[0m  [1mSELECT "complements".* FROM "complements" WHERE "complements"."project_id" = 3[0m
+  Rendered projects/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-13 21:50:12 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-12-13 21:50:12 -0500
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-13 21:50:12 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-13 21:50:12 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-13 21:50:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/complements.css?body=1" for 127.0.0.1 at 2012-12-13 21:50:12 -0500
+Served asset /complements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/complements.js?body=1" for 127.0.0.1 at 2012-12-13 21:50:12 -0500
+Served asset /complements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2012-12-13 21:50:12 -0500
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-13 21:50:12 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/3" for 127.0.0.1 at 2012-12-13 21:50:19 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "complements" WHERE "complements"."project_id" = 3[0m
+  [1m[35mComplement Load (0.1ms)[0m  SELECT "complements".* FROM "complements" WHERE "complements"."project_id" = 3
+  Rendered projects/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-13 21:50:19 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-12-13 21:50:19 -0500
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/complements.css?body=1" for 127.0.0.1 at 2012-12-13 21:50:19 -0500
+Served asset /complements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-13 21:50:19 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-13 21:50:19 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-13 21:50:19 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/complements.js?body=1" for 127.0.0.1 at 2012-12-13 21:50:19 -0500
+Served asset /complements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2012-12-13 21:50:19 -0500
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-13 21:50:19 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/3" for 127.0.0.1 at 2012-12-13 21:50:29 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "complements" WHERE "complements"."project_id" = 3
+  [1m[36mComplement Load (0.1ms)[0m  [1mSELECT "complements".* FROM "complements" WHERE "complements"."project_id" = 3[0m
+  Rendered projects/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-13 21:50:29 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-13 21:50:29 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-13 21:50:29 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-12-13 21:50:29 -0500
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-13 21:50:29 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/complements.css?body=1" for 127.0.0.1 at 2012-12-13 21:50:29 -0500
+Served asset /complements.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/complements.js?body=1" for 127.0.0.1 at 2012-12-13 21:50:29 -0500
+Served asset /complements.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2012-12-13 21:50:29 -0500
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-13 21:50:29 -0500
+Served asset /application.js - 304 Not Modified (0ms)
